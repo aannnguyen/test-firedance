@@ -1,0 +1,79 @@
+*ATTIC*
+/build
+bin
+dump
+unit-test
+tmp
+frontend
+
+genhtml/
+target/
+*.lcov
+*.profraw
+/report
+flamegraph.html
+perf.data
+perf.data.old
+
+# GDB
+.gdb_history
+
+# Clangd
+.cache
+.clangd
+compile_commands.json
+
+# Rust
+**/Cargo.lock
+
+# Dependencies
+opt/
+opt-msan/
+deps-bundle.tar.zst
+
+# Nix
+/result
+
+# Vimdiff
+*.orig
+
+# Vim
+*.swp
+*.swo
+
+# VSCode
+.vscode
+
+# JetBrains
+.fleet
+.idea
+
+# Packet Captures
+*.pcap
+*.pcapng
+
+# Logs
+*.log
+
+# VitePress docs
+/book/.vitepress/cache
+/book/.vitepress/dist
+/book/node_modules
+/book/bun.lock
+/book/bun.lockb
+
+# TVU
+testnet.toml
+mainnet.toml
+localnet.toml
+sim.toml
+backtest.toml
+testnet.sh
+mainnet.sh
+localnet.sh
+sim.sh
+backtest.sh
+
+# Python
+venv
+*.pyc
